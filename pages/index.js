@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import FlourishEmbed1 from '../components/FlourishEmbed1';
 import FlourishEmbed2 from '../components/FlourishEmbed2';
+import Banner from '../components/Banner';
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -19,11 +20,18 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div>
-          <h1>Welcome to My Page</h1>
+          <Banner />
+          <div className={styles.separator}></div>
+          <div className={styles.textContainer}>
+            <h1>We create change-minded people, leaders, and communities.</h1>
+            <p>We create future leaders who understand what it takes to move the world closer to peace.</p>
+          </div>
           <FlourishEmbed1 />
-        </div>
-        <div>
-          <h1>Separator</h1>
+          <div className={styles.separator}></div>
+          <div className={styles.textContainer}>
+            <h1>We create change-minded people, leaders, and communities.</h1>
+            <p>We create future leaders who understand what it takes to move the world closer to peace.</p>
+          </div>
           <FlourishEmbed2 />
         </div>
       </main>

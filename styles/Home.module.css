@@ -2,8 +2,66 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: white;
 }
+
+/* TEXT CONTAINERS */
+
+.textContainer {
+  width: 70%;
+  margin: 0px auto 45px auto;
+}
+
+.textContainer h1 {
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.textContainer p {
+  color: black;
+  text-align: center;
+}
+
+.separator {
+  margin-top: 65px;
+}
+
+/* FLOURISH */
 
 .flourishEmbed {
   text-align: center;
+}
+
+/* BANNER */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 650px; /* Adjust this value as needed */
+  background-image: url('/cover.jpg'); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerText {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em; /* Adjust this value as needed */
+}
+
+.bannerLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%); /* Adjust this value as needed */
+  width: auto; /* Adjust this value as needed */
+  height: auto;
+}
+
+.bannerLogo img {
+  height: 100%;
 }
