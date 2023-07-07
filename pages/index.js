@@ -34,7 +34,7 @@ export default function Home() {
             <p>We create future leaders who understand what it takes to move the world closer to peace.</p>
           </div>
           <Image 
-            src="/graphs.png" 
+            src="/graphs-banner.png" 
             alt="graphs" 
             width={1200} // The actual width of your image
             height={800} // The actual height of your image
