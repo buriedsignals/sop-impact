@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import FlourishEmbed1 from '../components/FlourishEmbed1';
 import FlourishEmbed2 from '../components/FlourishEmbed2';
+import FlourishEmbed3 from '../components/FlourishEmbed3';
 import Banner from '../components/Banner';
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
@@ -28,6 +29,19 @@ export default function Home() {
           </div>
           <FlourishEmbed1 />
           <div className={styles.separator}></div>
+          <div className={styles.textContainer}>
+            <h1>We create change-minded people, leaders, and communities.</h1>
+            <p>We create future leaders who understand what it takes to move the world closer to peace.</p>
+          </div>
+          <Image 
+            src="/Graphs.png" 
+            alt="graphs" 
+            width={1200} // The actual width of your image
+            height={800} // The actual height of your image
+            layout="responsive"
+            className={styles.graphImage} 
+          />
+          <FlourishEmbed3 />
           <div className={styles.textContainer}>
             <h1>We create change-minded people, leaders, and communities.</h1>
             <p>We create future leaders who understand what it takes to move the world closer to peace.</p>
