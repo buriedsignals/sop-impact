@@ -34,14 +34,22 @@ export default function Home() {
             <p>We create future leaders who understand what it takes to move the world closer to peace.</p>
           </div>
           <Image 
-            src="/Graphs.png" 
+            src="/graphs.png" 
             alt="graphs" 
             width={1200} // The actual width of your image
             height={800} // The actual height of your image
             layout="responsive"
             className={styles.graphImage} 
           />
-          <FlourishEmbed3 />
+          <div className={styles.textContainer}>
+            <h1>We create change-minded people, leaders, and communities.</h1>
+            <p>We create future leaders who understand what it takes to move the world closer to peace.</p>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ position: 'relative', width: '85%', paddingTop: '56.25%' }}>
+              <FlourishEmbed3 />
+            </div>
+          </div>  
           <div className={styles.textContainer}>
             <h1>We create change-minded people, leaders, and communities.</h1>
             <p>We create future leaders who understand what it takes to move the world closer to peace.</p>

@@ -5,9 +5,11 @@ const FlourishEmbed3 = () => (
       src="https://public.flourish.studio/visualisation/14265963/?full" 
       style={{ 
         border: 'none', 
-        width: '85%', 
-        height: '700px', // Adjust this value as needed
-        margin: 'auto'
+        position: 'absolute', 
+        top: 0, 
+        left: 0, 
+        width: '100%', 
+        height: '100%'
       }} 
     />
   );
